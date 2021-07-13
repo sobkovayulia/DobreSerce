@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекти</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="css\normalize.css">
+    <link rel="stylesheet" href="css\style2.css">
+    <script async src="js/scripts.js"></script>
+</head>
+
+<body>
+    <!-- Фон -->
+    <div class="fon">
+        <div class="rectangle"></div>
+    </div>
+    <div id="Overlay3" class="overlay3">
+        <span class="closebtn3" onclick="closeSearch2()"><img src="img/Close.png"></span>
+        <div class="text3_1">Гроші на ліки</div>
+
+        <form action="" class="search10">
+            <input type="text" placeholder="Пошук">
+            <button><img src="img/Search.png" alt=""></button>
+        </form>
+
+
+        <div class="overlay-content3">
+            <div class="group4">
+                <div class="group4_line"></div>
+                <div class="group5">
+                    <div class="group5_text1">Війна</div>
+                    <div class="group5_text2">Необхідно зібрати ліки для поранених бійців із зони АТО </div>
+                </div>
+                <div class="group6">
+                    <div class="group6_text4">Діти</div>
+                    <div class="group6_text1">Для операції на сердці маленькому хлопчику, необхідно зібрати гроші на
+                        ліки
+                        <div class="group6_line"></div>
+                    </div>
+                    <div class="group6_text2">Збираємо гроші на лікування п’ятирічного Василя, який став жертвою ДТП
+                    </div>
+                    <div class="group6_text3">Проекти</div>
+
+                    <div class="group6_text6">Діти</div>
+                    <div class="group6_text5">Необхідно купити ліки для дитячого будинку в місті Київ</div>
+                    <div class="group6_text7">Архів</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Overlay2" class="overlay2">
+        <span class="closebtn2" onclick="closeSearch()"><img src="img/Close.png"></span>
+        <div class="overlay-content2">
+            <form action="" class="search4">
+                <input type="text" placeholder="Пошук">
+            </form>
+            <!-- Активний пошук -->
+            <div class="search5" onclick="openSearch2()">
+                <img src="img/icon.png" alt="">
+            </div>
+            <div class="centerline"></div>
+        </div>
+    </div>
+    <!-- Верхня стрічка -->
+    <header class="header">
+        <div class="header__logo"><a href="index.html"><img src="img/logo.png"></a></div>
+        <!-- Вибір мови -->
+        <div class="Language">
+            <div class="ukr">
+                <a href="#">
+                    UKR |
+                </a>
+            </div>
+            <div class="eng">
+                <a href="#">
+                    ENG |
+                </a>
+            </div>
+            <div class="rus">
+                <a href="#">
+                    RUS
+                </a>
+            </div>
+        </div>
+        <!-- Меню -->
+        <div class="main__menu">
+            <div class="menu1">
+                <div class="projects">
+                    <a href="Projects.html">
+                        Проекти
+                    </a>
+                </div>
+                <div class="archive">
+                    <a href="archiv.html">
+                        Архів
+                    </a>
+                </div>
+                <div class="contacts">
+                    <a href="Contacts.html">
+                        Контакти
+                    </a>
+                </div>
+            </div>
+            <div class="menu2">
+                <div class="help">
+                    <a href="sos.html">
+                        Термінова допомога
+                    </a>
+                </div>
+            </div>
+            <!-- Пошук -->
+            <div class="search3">
+                <button class="openBtn" onclick="openSearch()">
+                    <img src="img/Search.png" alt="">
+                </button>
+            </div>
+        </div>
+        <!-- Вхід/Реєстрація -->
+        <div class="log_in_or_register">
+            <a href="#">
+                <u> Вхід/Реєстрація</u>
+            </a>
+        </div>
+    </header>
+    <!-- Проекти меню -->
+
+    <div class="mainMenu">
+        <a href="#">Діти</a>
+        <div class="tw_four">24</div>
+    </div>
+    <!-- Види допомоги -->
+    <div id=1 onclick="stateChange()" class="types_of">
+        <div class="types_of_text">Види допомоги</div>
+        <div class="types_of_button"><img src="img/Shape1.png" alt=""></div>
+    </div>
+    <div id=2 style="display : none" class="filter">
+        <label class="container">Зробити
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <div class="line1"></div>
+        <label class="container">Финансова допомога
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <div class="line2"></div>
+        <label class="container">Матеріальна допомога
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <div class="line3"></div>
+        <label class="container">Волонтерство
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <div class="line4"></div>
+        <div class="ok"><a href="#">Показати</a>
+
+        </div>
+    </div>
+    <!-- Контент -->
+    <div class="content">
+        <div class="string1">
+
+        </div>
+        <div class="string2">
+
+        </div>
+        <div class="string3">
+
+        </div>
+        <div class="string4">
+
+        </div>
+        <div class="string5">
+            
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Чат -->
+    <a href="#">
+        <div class="chat">
+            <img src="img/Chat.png">
+        </div>
+    </a>
+</body>
+
+</html>

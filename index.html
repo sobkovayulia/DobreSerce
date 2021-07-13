@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДобреСерце</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="css\normalize.css">
+    <link rel="stylesheet" href="css\style.css">
+    <script async src="js/scripts.js"></script>
+</head>
+
+<body>
+    <!-- Фон -->
+    <div class="fon">
+        <div class="rectangle"></div>
+        <div class="triangle">
+            <img src="img/Triangle.png" alt="">
+
+            <div class="izometria">
+                <img src="img/Сердце изометрия.png">
+            </div>
+        </div>
+    </div>
+    <div id="Overlay3" class="overlay3">
+        <span class="closebtn3" onclick="closeSearch2()"><img src="img/Close.png"></span>
+        <div class="text3_1">Гроші на ліки</div>
+
+        <form action="" class="search10">
+            <input type="text" placeholder="Пошук">
+            <button><img src="img/Search.png" alt=""></button>
+        </form>
+
+
+        <div class="overlay-content3">
+            <div class="group4">
+                <div class="group4_line"></div>
+                <div class="group5">
+                    <div class="group5_text1">Війна</div>
+                    <div class="group5_text2">Необхідно зібрати ліки для поранених бійців із зони АТО </div>
+                </div>
+                <div class="group6">
+                    <div class="group6_text4">Діти</div>
+                    <div class="group6_text1">Для операції на сердці маленькому хлопчику, необхідно зібрати гроші на
+                        ліки
+                        <div class="group6_line"></div>
+                    </div>
+                    <div class="group6_text2">Збираємо гроші на лікування п’ятирічного Василя, який став жертвою ДТП
+                    </div>
+                    <div class="group6_text3">Проекти</div>
+
+                    <div class="group6_text6">Діти</div>
+                    <div class="group6_text5">Необхідно купити ліки для дитячого будинку в місті Київ</div>
+                    <div class="group6_text7">Архів</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Overlay2" class="overlay2">
+        <span class="closebtn2" onclick="closeSearch()"><img src="img/Close.png"></span>
+        <div class="overlay-content2">
+            <form action="" class="search4">
+                <input type="text" placeholder="Пошук">
+            </form>
+            <!-- Активний пошук -->
+            <div class="search5" onclick="openSearch2()">
+                <img src="img/icon.png" alt="">
+            </div>
+            <div class="centerline"></div>
+        </div>
+    </div>
+    <!-- Верхня стрічка -->
+    <header class="header">
+        <div class="header__logo"><a href="index.html"><img src="img/logo.png"></a></div>
+        <!-- Вибір мови -->
+        <div class="Language">
+            <div class="ukr">
+                <a href="#">
+                    UKR |
+                </a>
+            </div>
+            <div class="eng">
+                <a href="#">
+                    ENG |
+                </a>
+            </div>
+            <div class="rus">
+                <a href="#">
+                    RUS
+                </a>
+            </div>
+        </div>
+        <!-- Меню -->
+        <div class="main__menu">
+            <div class="menu1">
+                <div class="projects">
+                    <a href="Projects.html">
+                        Проекти
+                    </a>
+                </div>
+                <div class="archive">
+                    <a href="archiv.html">
+                        Архів
+                    </a>
+                </div>
+                <div class="contacts">
+                    <a href="Contacts.html">
+                        Контакти
+                    </a>
+                </div>
+            </div>
+            <div class="menu2">
+                <div class="help">
+                    <a href="sos.html">
+                        Термінова допомога
+                    </a>
+                </div>
+            </div>
+            <!-- Пошук -->
+            <div class="search3">
+                <button class="openBtn" onclick="openSearch()">
+                    <img src="img/Search.png" alt="">
+                </button>
+            </div>
+        </div>
+        <!-- Вхід/Реєстрація -->
+        <div class="log_in_or_register">
+            <a href="#">
+                <u> Вхід/Реєстрація</u>
+            </a>
+        </div>
+    </header>
+    <!-- ВИди допомоги -->
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeFrame()"><img src="img/Close.png"></span>
+        <div class="overlay-content">
+            <form action="">
+                <div class="white_r">
+                    <div class="text_w">Види допомоги</div>
+                    <a href="">
+                        <div class="do1">
+                            <div class="do_shape"><img src="img/do1.png" alt=""></div>
+                            <div class="shape2"></div>
+                            <div class="do_text">Зробити</div>
+                        </div>
+                    </a>
+                    <div class="text1">Натискайте цю кнопку,
+                        якщо Ви хочете зробити,
+                        наприклад: ремонт у
+                        дитячому будинку,
+                        складну операцію,
+                        побудувати дитячий
+                        майданчик або побудувати житло
+                        для переселенців і тд.
+
+                        Ця кнопка, для організацій, які можуть взяти на себе відповідальність за увесь проект.
+                    </div>
+                    <a href="#">
+                        <div class="money">
+                            <div class="money_shape"><img src="img/money2.png" alt=""></div>
+                            <div class="shape2"></div>
+                            <div class="money_text">Фінансова допомога</div>
+                        </div>
+                    </a>
+                    <div class="text2">
+                        Перераховуйте гроші тим, хто дійсно потребує цього.
+                    </div>
+                    <a href="">
+                        <div class="clothes">
+                            <div class="clothes_shape"><img src="img/clothes.png" alt=""></div>
+                            <div class="shape2"></div>
+                            <div class="clothes_text">Матеріальна допомога</div>
+                        </div>
+                    </a>
+                    <div class="text3">Зберіть ліки, речі, їжу,
+                        іграшки та інше, для тих, кому це необхідно.</div>
+                    <a href="">
+                        <div class="donation">
+                            <div class="donation_shape"><img src="img/donation.png" alt=""></div>
+                            <div class="shape2"></div>
+                            <div class="donation_text">Волонтерство</div>
+                        </div>
+                    </a>
+                    <div class="text4">Допоможіть ділом або професійними навичками.
+                        Підтримайте проекти своєю роботою. </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <!-- Допомогти вже зараз -->
+    <div id="Lay" class="lay">
+        <span class="close" onclick="closeForms()"><img src="img/Close.png"></span>
+        <div class="lay_content">
+            <div class="lc_text1">Заповніть форму</div>
+            <!-- Перемикач -->
+
+
+<!--             <ul class="radio-switch ">
+                <li class="radio-switch__item">
+                    <input class="radio-switch__input sr-only" type="radio" name="radio-switch-name" id="radio-1"
+                        value="" checked>
+                    <label class="radio-switch__label" for="radio-1">Monthly</label>
+                </li>
+
+                <li class="radio-switch__item">
+                    <input class="radio-switch__input sr-only" type="radio" name="radio-switch-name" id="radio-2"
+                        value="">
+                    <label class="radio-switch__label" for="radio-2">Yearly</label>
+                    <div aria-hidden="true" class="radio-switch__marker"></div>
+                </li>
+            </ul> -->
+
+
+            <input id="myCheckBox" class="toggle-button" type="checkbox" onclick="getValue()">
+            <div id="ur_osoba" class="ur_osoba" style="display: block;">
+                <form action="" class="forma1">
+                    <div class="text1_f1">Ім'я</div>
+                    <input class="input1_f1" type="text">
+
+                    <div class="text2_f1">Прізвище</div>
+                    <input class="input2_f1" type="text">
+
+                    <div class="text3_f1">Назва компаніі, організації</div>
+                    <input class="input3_f1" type="text">
+
+                    <div class="text4_f1">Email-адрес</div>
+                    <input class="input4_f1" type="email">
+
+                    <div class="text5_f1">Номер телефону</div>
+                    <input class="input5_f1" type="tel">
+
+                </form>
+
+                <form action="" class="forma2">
+                    <div class="text1_f2">Країна</div>
+                    <input class="input1_f2" type="text">
+
+                    <div class="text2_f2">Місто</div>
+                    <input class="input2_f2" type="text">
+
+                    <div class="text3_f2">Штат, район</div>
+                    <input class="input3_f2" type="text">
+
+                    <div class="text4_f2">Адреса</div>
+                    <input class="input4_f2" type="text">
+
+                    <div class="text5_f2">Поштовий індекс</div>
+                    <input class="input5_f2" type="text">
+
+                </form>
+                <div class="lc_text2">Види допомоги</div>
+                <div class="lc_text4">Ви можете змінити вид допомоги</div>
+                <a href="#">
+                    <div class="do1">
+                        <div class="do_shape"><img src="img/do1.png" alt=""></div>
+                        <div class="shape2"></div>
+                        <div class="do_text">Зробити</div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="money">
+                        <div class="money_shape"><img src="img/money3.png" alt=""></div>
+                        <div class="shape2"></div>
+                        <div class="shape3"></div>
+                        <div class="money_text">Фінансова допомога</div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="clothes">
+                        <div class="clothes_shape"><img src="img/clothes.png" alt=""></div>
+                        <div class="shape2"></div>
+                        <div class="clothes_text">Матеріальна допомога</div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="donation">
+                        <div class="donation_shape"><img src="img/donation.png" alt=""></div>
+                        <div class="shape2"></div>
+                        <div class="donation_text">Волонтерство</div>
+                    </div>
+                </a>
+
+                <div class="ls_forma">
+                    <img class="combine_shape" src="img/Combined Shape.png" alt="">
+                    <div class="ls_forma1">
+                        <div class="text_shape">Спосіб оплати </div>
+                        <a href="#">
+                            <div class="card1">
+                                <img class="card" src="img/Card1.png" alt="">
+                                <div class="text_card">Карта Visa/MasterCard</div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card2">
+                                <img class="card" src="img/Card2.png" alt="">
+                                <div class="text1_card2">Приват24</div>
+                                <div class="text_card">Приват24</div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card3">
+                                <img class="card" src="img/Card3.png" alt="">
+                                <div class="text_card">Термінали України</div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card4">
+                                <img class="card" src="img/Card4.png" alt="">
+                                <div class="text_card">WebMoney</div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="card5">
+                                <img class="card" src="img/Card5.png" alt="">
+                                <div class="text_card">PayPal</div>
+
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="ls_forma2">
+                        <div class="text_shape">Введіть наступні данні</div>
+                        <div class="card6">
+                            <img class="card" src="img/Card6.png" alt="">
+                            <div class="number_cards">Номер карти</div>
+                            <div class="card6_group">
+                                <input class="input1_card" type="text">
+                                <input class="input2_card" type="text">
+                                <input class="input3_card" type="text">
+                                <input class="input4_card" type="text">
+
+                                <div class="data_cards">Термін дії</div>
+                                <input class="input5_card" type="date">
+                                <div class="cvc_cards">CVC/CVV</div>
+                                <input class="input6_card" type="text">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="lc_text3">Допомогти
+
+                </div>
+            </div>
+
+            <div id="fiz_osoba" class="fiz_osoba" style="display: none;">
+                <form action="" class="forma1_f">
+                    <div class="text1_f1">Ім'я</div>
+                    <input class="input1_f1" type="text">
+
+                    <div class="text2_f1">Прізвище</div>
+                    <input class="input2_f1" type="text">
+
+                    <div class="text3_f1">Назва компаніі, організації</div>
+                    <input class="input3_f1" type="text">
+
+                    <div class="text4_f1">Email-адрес</div>
+                    <input class="input4_f1" type="email">
+
+                    <div class="text5_f1">Номер телефону</div>
+                    <input class="input5_f1" type="tel">
+
+                </form>
+
+                <form action="" class="forma2_f">
+                    <div class="text1_f2">Країна</div>
+                    <input class="input1_f2" type="text">
+
+                    <div class="text2_f2">Місто</div>
+                    <input class="input2_f2" type="text">
+
+                    <div class="text3_f2">Штат, район</div>
+                    <input class="input3_f2" type="text">
+
+                    <div class="text4_f2">Адреса</div>
+                    <input class="input4_f2" type="text">
+
+                    <div class="text5_f2">Поштовий індекс</div>
+                    <input class="input5_f2" type="text">
+
+                </form>
+
+                <form action="" class="forma3_f">
+                    <div class="text1_f3">Юридична адреса</div>
+                    <input class="input1_f3" type="text">
+
+                    <div class="text2_f3">Найменування банку</div>
+                    <input class="input2_f3" type="text">
+
+                    <div class="text3_f3">МФО банку</div>
+                    <input class="input3_f3" type="text">
+
+                    <div class="text4_f3">Розрахунковий рахунок</div>
+                    <input class="input4_f3" type="text">
+
+                </form>
+                <form action="" class="forma4_f">
+                    <div class="text1_f4">ЗКПО</div>
+                    <input class="input1_f4" type="text">
+
+                    <div class="text2_f4">Тип оподаткування</div>
+                    <input class="input2_f4" type="text">
+
+                    <div class="text3_f4">ІНН</div>
+                    <input class="input3_f4" type="text">
+
+                    <div class="text4_f4">Система оподаткування</div>
+                    <input class="input4_f4" type="text">
+
+                    <div class="text5_f4">Телефон бугалтерії</div>
+                    <input class="input5_f4" type="text">
+
+                    <div class="text6_f4">Факс</div>
+                    <input class="input6_f4" type="text">
+
+                </form>
+
+
+                <div class="lc_text2">Види допомоги</div>
+                <div class="lc_text4">Ви можете змінити вид допомоги</div>
+                <a href="#">
+                    <div class="do1">
+                        <div class="do_shape"><img src="img/do1.png" alt=""></div>
+                        <div class="shape2"></div>
+                        <div class="do_text">Зробити</div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="money">
+                        <div class="money_shape"><img src="img/money3.png" alt=""></div>
+                        <div class="shape2"></div>
+                        <div class="shape3"></div>
+                        <div class="money_text">Фінансова допомога</div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="clothes">
+                        <div class="clothes_shape"><img src="img/clothes.png" alt=""></div>
+                        <div class="shape2"></div>
+                        <div class="clothes_text">Матеріальна допомога</div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="donation">
+                        <div class="donation_shape"><img src="img/donation.png" alt=""></div>
+                        <div class="shape2"></div>
+                        <div class="donation_text">Волонтерство</div>
+                    </div>
+                </a>
+
+                <div class="ls_formaf">
+                    <img class="combine_shape" src="img/Combined Shape.png" alt="">
+
+
+                    <div class="ls_forma1f">
+                        <div class="text_shape">Спосіб оплати </div>
+                        <a href="#">
+                            <div class="card1">
+                                <img class="card" src="img/Card1.png" alt="">
+                                <div class="text_card">Карта Visa/MasterCard</div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card2">
+                                <img class="card" src="img/Card2.png" alt="">
+                                <div class="text1_card2">Приват24</div>
+                                <div class="text_card">Приват24</div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card3">
+                                <img class="card" src="img/Card3.png" alt="">
+                                <div class="text_card">Термінали України</div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card4">
+                                <img class="card" src="img/Card4.png" alt="">
+                                <div class="text_card">WebMoney</div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="card5">
+                                <img class="card" src="img/Card5.png" alt="">
+                                <div class="text_card">PayPal</div>
+
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="ls_forma2f">
+                        <div class="text_shape">Введіть наступні данні</div>
+                        <div class="card6f">
+                            <img class="card" src="img/Card6.png" alt="">
+                            <div class="number_cards">Номер карти</div>
+                            <div class="card6_groupf">
+                                <input class="input1_card" type="text">
+                                <input class="input2_card" type="text">
+                                <input class="input3_card" type="text">
+                                <input class="input4_card" type="text">
+
+                                <div class="data_cards">Термін дії</div>
+                                <input class="input5_card" type="date">
+                                <div class="cvc_cards">CVC/CVV</div>
+                                <input class="input6_card" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lc_text3">Допомогти</div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Силки -->
+    <div class="forma">
+        <div class="dobre_serce">Добре Серце</div>
+        <!-- Детально про поект -->
+        <div class="about_project">
+            <div class="about_project_text">
+                Детальніше про проект
+            </div>
+            <div class="shape_1">
+                <a href="#">
+                    <img src="img/Shape1.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="you_can_help_now">
+            <div class="rectangle3">
+                <img src="img/Rectangle3.png">
+            </div>
+            <div class="you_can_help_now_text">
+                Вже зараз Ви можете допомогти тим, хто дійсно потребує допомоги
+            </div>
+        </div>
+        <div class="how_you_can_help">
+            <div class="how_you_can_help_text">
+                Як Ви можете допомогти?
+            </div>
+            <div class="shape_2">
+                <button class="openBtn" onclick="openFrame()">
+                    <img src="img/Shape2.png">
+                </button>
+            </div>
+            </button>
+        </div>
+        <div class="to_help_now">
+            <div class="rectangle4">
+                <a href="#">
+                    <img src="#" alt="">
+                </a>
+            </div>
+            <div class="to_help_now_text">
+                <button class="open" onclick="openForms()">
+                    Допомогти вже зараз
+                </button>
+            </div>
+        </div>
+        <div class="add_project">
+            <div class="rectangle5">
+                <img src="img/Rectangle5.png">
+            </div>
+            <div class="add_project_text">
+                Якщо Вам необхідна допомога, додайте проект
+            </div>
+
+            <div class="to_add_project">
+                <div class="to_add_project_text">
+                    Додати проект
+                </div>
+                <div class="shape4">
+                    <a href="#">
+                        <img src="img/Shape4.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Чат -->
+    <a href="#">
+        <div class="chat">
+            <img src="img/Chat.png">
+        </div>
+    </a>
+    <!-- Соціальні мережі -->
+    <div class="networks">
+        <div class="sharetoall"><a href="#">Розповісти всім</a></div>
+        <div class="tweeter">
+            <a href="#">
+                <img src="img/tweeter.png" alt="">
+            </a>
+        </div>
+        <div class="facebook">
+            <a href="#">
+                <img src="img/facebook.png" alt="">
+            </a>
+        </div>
+        <div class="vk">
+            <a href="#">
+                <img src="img/vk.png" alt="">
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

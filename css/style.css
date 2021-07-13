@@ -1,0 +1,2679 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #C5D5E6;
+    font-family: Verdana;
+}
+.help a{
+    color: #FFFFFF;
+}
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1440px;
+    max-height: 800px;
+}
+/* Верхня стрічка */
+.header{
+    width: 100%;
+    height: 18%;
+    padding: 5%;
+}
+.header__logo{
+    position: absolute;
+    width: 36px;
+    height: 34px;
+    left: 3%;
+    top: 5%;  
+}
+.Language{
+    position: absolute;
+    width: 125px;
+    height: 14px;
+    left: 10%;
+    top: 6%;
+    color: #C5D5E6;
+}
+.ukr{
+    position: absolute;
+    width: 50px;
+    height: 14px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.9625px;
+    
+    color: #C5D5E6;
+}
+.eng{
+    position: absolute;
+    width: 50px;
+    height: 14px;
+    left: 50px;
+    top: 0px;
+    
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.9625px;
+    
+    color: #C5D5E6;
+}
+.rus{
+    position: absolute;
+    width: 25px;
+    height: 14px;
+    right: 0px;
+    top: 0px;
+    
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.9625px;
+    
+    color: #C5D5E6;
+}
+.main__menu{
+    position: absolute;
+    width: 520px;
+    height: 60px;
+    left: 35%;
+    top: 3%;
+    background: #9c9c9c3f;
+    border-radius: 8px; 
+}
+.menu1{
+    position: absolute;
+    width: 253px;
+    height: 30px;
+    left: 2%;
+    top: 25%;
+}
+.projects{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 0%;
+    top: 3%;
+    font-family: Verdana;
+    color: #C5D5E6;
+    font-size: 14px;
+    line-height: 28px;
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    transition: all .3s;
+}
+.projects:hover{
+    background: #00000079;
+    mix-blend-mode: normal;
+    border-radius: 5px;
+}
+.archive{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 35.2%;
+    top: 3%;
+
+    font-family: Verdana;
+    color: #C5D5E6;
+    font-size: 14px;
+    line-height: 28px;
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    transition: all .3s;
+}
+.archive:hover{
+    background: #00000079;
+    mix-blend-mode: normal;
+    border-radius: 5px;
+}
+.contacts{
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    left: 62.5%;
+    top: 3%;
+    
+    font-family: Verdana;
+    color: #C5D5E6;
+    font-size: 14px;
+    line-height: 28px;
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    transition: all .3s;
+}
+.contacts:hover{
+    background: #00000079;
+    mix-blend-mode: normal;
+    border-radius: 5px;
+}
+.menu2{
+    position: absolute;
+    width: 190px;
+    height: 42px;
+    left: 52%;
+    top:15%;
+}
+.help{
+    position: absolute;
+    width: 180px;
+    height: 42px;
+    left: 0%;
+    top: 1%;
+    
+    font-family: Verdana;
+    color: #C5D5E6;
+    font-size: 14px;
+    line-height: 42px;
+    background: linear-gradient(270deg, #6082D7 -81.69%, #E73453 100%);
+    border-radius: 5px;
+    transition: all .3s;
+    text-align: center;
+}
+.help:hover{
+    mix-blend-mode: normal;
+    border-radius: 5px;
+}
+.search3 button{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 5%;
+    top: 20px;
+    
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.log_in_or_register{
+    position: absolute;
+    width: 130.50px;
+    height: 32px;
+    right: 3%;
+    top: 5%;
+    
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 32px;
+    
+    color: #C5D5E6;
+    
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+/* Форма Добре серце */
+.forma{
+    position: absolute;
+    width: 700px;
+    height: 430px;
+    left: 10%;
+    top: 20%;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.dobre_serce{
+    position: absolute;
+    width: 500px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Verdana;
+    font-size: 64px;
+    line-height: 75px;
+    
+    color: #C5D5E6;
+}
+.about_project{
+    position: absolute;
+    width: 240px;
+    height: 19px;
+    right: 0%;
+    top: 30px;
+}
+.about_project_text{
+    position: absolute;
+    width: 230px;
+    height: 18px;
+    left: 10px;
+    top: 0px;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #C5D5E6;    
+}
+.shape_1{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 250px;
+    top: 0px;
+}
+.you_can_help_now{  
+    position: absolute;
+    width: 470px;
+    height: 130px;
+    left: 0px;
+    top: 134px;  
+ 
+}
+.you_can_help_now_text{
+    position: absolute;
+    width: 456px;
+    height: 40px;
+    left: 10px;
+    top: 20px;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #C5D5E6;   
+}
+.rectangle3{
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    left: 10px;
+    top: 0px;
+}
+.how_you_can_help{
+    position: absolute;
+    width: 260px;
+    height: 18px;
+    left: 10px;
+    top: 231px;
+
+}
+.how_you_can_help_text{
+    position: absolute;
+    width: 250px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #C5D5E6;
+}
+.shape_2{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 260px;
+    top: 0px;
+}
+.to_help_now{
+    position: absolute;
+    width: 237px;
+    height: 50px;
+    left: 350px;
+    top: 210px;
+}
+.to_help_now button{
+    border: none;
+    background: none;
+    color: #C5D5E6;
+    cursor: pointer;
+}
+.to_help_now_text{
+    position: absolute;
+    width: 230px;
+    height: 18px;
+    left: 5px;
+    top: 15px;
+    text-align-last: center;
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #C5D5E6;
+}
+.rectangle4{
+    position: absolute;
+    width: 237px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    box-shadow: 0px 0px 7px 2px #9D5E9A, 0px 0px 15px 10px #E53656;
+    border-radius: 10px;
+}
+.rectangle5{
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    left: 10px;
+    top: 0px;
+    
+}
+.add_project{
+    position: absolute;
+    width: 470px;
+    height: 110px;
+    left: 0px;
+    top: 300px;
+
+}
+.add_project_text{
+    position: absolute;
+    width: 456px;
+    height: 20px;
+    left: 10px;
+    top: 20px;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #C5D5E6;
+}
+.to_add_project{
+    position: absolute;
+    width: 164px;
+    height: 19px;
+    left: 0px;
+    top: 77px;
+}
+.to_add_project_text{
+    position: absolute;
+    width: 154px;
+    height: 18px;
+    left: 10px;
+    top: 0px;
+    
+    font-family: Verdana;
+    font-size: 19px;
+    line-height: 21px;
+    
+    color: #C5D5E6;
+}
+.shape4{ 
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 170px;
+    top: 2px;   
+}
+/* Серце фон */
+.izometria{
+    position: absolute;
+    width: 546px;
+    height: 419px;
+    left: 30%;
+    top: 19%;
+    
+    filter: drop-shadow(-3px 6px 7px rgba(0, 0, 0, 0.124745));
+    transform: rotate(0deg);
+}
+/* Чат */
+.chat{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 95%;
+    top: 90%;
+    padding-top: 12px;
+    padding-left: 7px;
+    background: #9D5E9B;
+    box-shadow: 0px 2px 16px #9D5E9B, 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+/* соціальні мережі */
+.networks{
+    position: absolute;
+    width: 270px;
+    height: 35px;
+    left: 3%;
+    top: 90%;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.186);
+}
+.sharetoall{
+    position: absolute;
+    width: 160px;
+    height: 14px;
+    left: 10px;
+    top: 10px;
+    
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 16px;
+    
+    color: #C5D5E6;
+}
+.tweeter{
+    position: absolute;
+    width: 28.04px;
+    height: 16px;
+    right: 65px;
+    top: 10px; 
+}
+.facebook{
+    position: absolute;
+    width: 19.23px;
+    height: 15.62px;
+    right: 40px;
+    top: 10px;
+    
+}
+.vk{
+    position: absolute;
+    width: 8.39px;
+    height: 18px;
+    right: 30px;
+    top: 10px;
+}
+/* Фон */
+.triangle{
+    position: absolute;
+    width: 1071px;
+    height: 596px;
+    right: 0%;
+    bottom: 0%;
+}
+.rectangle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(321.24deg, #4792E1 -91.81%, #4174B3 -31.53%, #363B5D 82.08%);
+}
+.fon{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+}
+/* Пошук */
+.openBtn {
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+.opensearch{
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+.overlay2{
+    width: 520px;
+    height: 60px;
+    left: 35%;
+    top: 3%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+  
+    background: rgba(197, 213, 230, 0.5);
+    backdrop-filter: blur(54.3656px);
+    border-radius: 10px;
+}
+.overlay2 .closebtn2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 2px;
+    top: 6px;
+    cursor: pointer;
+}
+.closebtn2 img{
+    width: 100%;
+    height: 100%;
+}
+.overlay-content2{
+    position: relative;
+    top: 0;
+    width: 460px;
+    height: 100%;
+}
+.search4{
+    position:relative;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+}
+.search4 input[type="text"]{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    padding: 0 15px 0 15px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    transition: .4s cubic-bezier(0, 0.8, 0, 1);
+    background: none;
+
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 30px;
+    color: cornsilk; 
+}
+.centerline{
+    position: absolute;
+    width: 2px;
+    height: 44px;
+    left: 100%;
+    top: 6px;
+    
+    background: #2E3F69;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.search5{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 5px;
+    top: 12px;
+    cursor: pointer;
+}
+.search5 img{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: none;
+    transform: rotate(90deg);
+}
+/* Активний пошук */
+.search10{
+    position: absolute;
+    width: 520px;
+    height: 60px;
+    left: 30%;
+    top: 3%;
+    background: rgba(197, 213, 230, 0.5);
+    backdrop-filter: blur(54.3656px);
+    border-radius: 10px;
+}
+.search10 input[type="text"]{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    padding: 0 15px 0 15px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    transition: .4s cubic-bezier(0, 0.8, 0, 1);
+    background: none;
+
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 30px;
+    color: cornsilk; 
+}
+.search10 button{
+    position: absolute;
+    border: none;
+    background: none;
+    height: 50px;
+    width: 50px;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    background: rgba(61, 65, 114, 0.5);
+    backdrop-filter: blur(54.3656px);
+    border-radius: 50%;
+}
+.overlay3{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    position: absolute;
+    width: 95%;
+    height: 70%;
+    left: 2.5%;
+    top: 5px;
+    background: rgba(197, 213, 230, 0.5);
+    backdrop-filter: blur(20px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 10px;
+}
+.overlay3 .closebtn3 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 4px;
+    top: 4px;
+    cursor: pointer;
+}
+.closebtn3 img{
+    width: 100%;
+    height: 100%;
+}
+.text3_1{
+    position: absolute;
+    width: 90%;
+    height: 60px;
+    top: 3%;
+    padding-left: 20px;
+    font-family: Verdana;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #FFFFFF;
+}
+.overlay-content3{
+    position: relative;
+    top: 18%;
+    width: 100%;
+    height: 82%;
+    background: rgba(197, 213, 230, 0.5);
+    backdrop-filter: blur(0px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 10px;
+}
+.group4{
+    position: absolute;
+    width: 75%;
+    height: 80%;
+    left: 3%;
+    top: 5%;
+}
+.group5{
+    position: absolute;
+    width: 30%;
+    height: 22%;
+    right: 0;
+    top: 0;
+}
+.group5_text1{
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    left: 1px;
+    top: 1px;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    
+}
+.group5_text2{
+    position: absolute;
+    width: 99%;
+    height: 32px;
+    left: 1px;
+    bottom: 1px;
+    
+    letter-spacing: 1px;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+}
+.group4_line{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    right: 0;
+    top: 60%;
+    
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+.group6{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.group6_text1{
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    right: 0;
+    top: 15%;
+    
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    
+    letter-spacing: 1px;
+}
+.group6_line{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    right: 0;
+    bottom: 0;
+    
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+.group6_text2{
+    position: absolute;
+    width: 300px;
+    height: max-content;
+    right: 0;
+    top: 40%;
+    
+    letter-spacing: 1px;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.group6_text3{
+    position: absolute;
+    width: max-content;
+    height: 28px;
+    left: 0;
+    top: 10%;
+    
+    letter-spacing: 1px;
+    font-family: Verdana;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.group6_text4{
+    position: absolute;
+    width: 40px;
+    height: max-content;
+    right: 260px;
+    top: 0px;
+    
+    letter-spacing: 1px;
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.group6_text5{
+    position: absolute;
+    width: 300px;
+    height: 32px;
+    right: 0;
+    bottom: 0;
+    
+    letter-spacing: 1px;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.group6_text6{
+    position: absolute;
+    width: 40px;
+    height: max-content;
+    right: 260px;
+    bottom: 18%;
+    
+    letter-spacing: 1px;
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.group6_text7{
+    position: absolute;
+    width: 69px;
+    height: 24px;
+    left: 0;
+    bottom: 10%;
+    
+    font-family: Verdana;
+    font-size: 24px;
+    line-height: 28px;
+    
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+/* Види допомоги */
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+    background: rgba(197, 213, 230, 0.5);
+    backdrop-filter: blur(20px);
+}
+.overlay-content {
+    position: relative;
+    top: 15%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.white_r{
+    position: absolute;
+    width: 86%;
+    height: 80%;
+    left: 7%;
+    top: 0;
+    
+    background: #FFFFFF;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+.overlay .closebtn {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    right: 60px;
+    top: 30px;
+
+    cursor: pointer;
+}
+.text_w{
+    position: absolute;
+    width: 100%;
+    height: 64px;
+    text-align-last: center;
+    top: 5%;
+    
+    font-family: Verdana;
+    font-size: 64px;
+    line-height: 75px;
+    
+    color: #363B5D;
+}
+.do1{
+    position: absolute;
+    width: 178px;
+    height: 80px;
+    left: 10%;
+    top: 28%;
+}
+.do_shape{
+    position: absolute;
+    width: 32.38px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+}
+.shape2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    border: 2px solid #C5D5E6;
+    box-sizing: border-box;
+    border-radius: 15px;   
+}
+.shape2:hover{
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.do_text{
+    position: absolute;
+    width: 78px;
+    height: 18px;
+    left: 95px;
+    top: 30px;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #363B5D;
+    
+}
+.money{
+    position: absolute;
+    width: 199px;
+    height: 80px;
+    left: 30%;
+    top: 28%;
+}
+.money_shape{
+    position: absolute;
+    width: 32.38px;
+    height: 40px;
+    left: 20px;
+    top: 25px;
+}
+.money_text{
+    position: absolute;
+    width: 78px;
+    height: 18px;
+    left: 95px;
+    top: 20px;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #363B5D;
+}
+.clothes{
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    left: 53%;
+    top: 28%;
+}
+.clothes_shape{
+    position: absolute;
+    width: 40px;
+    height: 56px;
+    left: 15px;
+    top: 15px;
+}
+.clothes_text{
+    position: absolute;
+    width: 119px;
+    height: 36px;
+    left: 95px;
+    top: 20px;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #363B5D;
+}
+.donation{
+    position: absolute;
+    width: 229px;
+    height: 80px;
+    right: 9%;
+    top: 28%;
+}
+.donation_shape{
+    position: absolute;
+    width: 39px;
+    height: 37px;
+    left: 20px;
+    top: 24px;
+}
+.donation_text{
+    position: absolute;
+    width: 78px;
+    height: 18px;
+    left: 95px;
+    top: 30px;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #363B5D;
+}
+.text1{
+    position: absolute;
+    height: 210px;
+    top: 45%;
+    left: 10%;
+    width: 178px;
+    
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #636575;
+
+    
+}
+.text2{
+    position: absolute;
+    height: 210px;
+    top: 45%;
+    left: 30%;
+
+    width: 199px;
+
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #636575;
+}
+.text3{
+    position: absolute;
+    height: 210px;
+    left: 53%;
+    top: 45%;
+    width: 220px;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #636575;   
+}
+.text4{
+    position: absolute;
+    height: 210px;
+    right: 10%;
+    top: 45%;
+    width: 229px;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #636575; 
+}
+.money:hover{
+    animation: 2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+.do1:hover{
+    animation: 2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+.clothes:hover{
+    animation: 2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+.donation:hover{
+    animation: 2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+@keyframes trambling-animation {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        transform: rotate(-3deg);
+    }
+    20%, 40% {
+        transform: rotate(3deg);
+    }
+}
+
+
+/* Фіз. особа/Юр. особа*/
+.lay{
+    display: none;
+    overflow:auto;
+    position: fixed;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    background: rgba(156, 157, 172, 0.5);
+    backdrop-filter: blur(20px);
+}
+.lay .close{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 8px;
+    top: 4px;
+    cursor: pointer;
+}
+.close img{
+ width: 100%;
+ height: 100%;
+}
+.lay_content{
+    position: absolute;
+    left: 3.47%;
+    right: 3.47%;
+    top: 6.89%;
+    bottom: 3.51%;
+    height: 150%;
+    padding-bottom: 65px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+.lay::-webkit-scrollbar {
+    width: 0;
+}
+.lc_text1{
+    position: absolute;
+    height: 55px;
+    width: 100%;
+    text-align-last: center;
+    top: 3%;
+    
+    font-family: Verdana;
+    font-size: 50px;
+    line-height: 60px;
+    
+    color: #363B5D;
+    
+}
+/* Перемикач */
+
+
+
+.toggle-button {
+    content: "fdgdfhfg";
+    position: relative;
+    display: inline-block;
+    left:  40%;
+    top: 11%;
+    width: 20%;
+    height: 3%;
+    margin: 0;
+    vertical-align: top;
+    border: 1px solid #363B5D;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #ffffff;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    transition: 0.3s;
+}
+.toggle-button::after {
+    content: "Юр. особа";
+    display: inline-block;
+    position: absolute;
+    left:  -2px;
+    top: -2%;
+    width: 50%;
+    height: 105%;
+    background: #363B5D;
+    border: 1px solid #363B5D;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    transform: translateX(0);
+    transition: 0.3s;
+}
+.toggle-button:checked::after {
+    transform: translateX(calc(100% + 5px));
+    background-color: #fff;  
+    border-radius: 0px 5px 5px 0px;
+    color: #363B5D;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    content: "Фіз. особа";
+    
+}
+.toggle-button:checked {
+    background-color: #363B5D;
+   
+}
+/* Юр особа */
+.lay_content .ur_osoba{
+    position: absolute;
+    top: 15%; 
+    width: 100%; 
+    height: 100%;
+}
+.ur_osoba .forma1{
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    top: 0%;
+    left: 10%;
+}
+.forma1 .text1_f1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma1 .input1_f1{
+    position: absolute;
+    left: 0;
+    top: 8%;
+    width: 45%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma1 .text2_f1{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma1 .input2_f1{
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    width: 45%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma1 .text3_f1{
+    position: absolute;
+    left: 0;
+    bottom: 66%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma1 .input3_f1{
+    position: absolute;
+    left: 0;
+    bottom: 53%;
+    width: 95%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma1 .text4_f1{
+    position: absolute;
+    left: 0;
+    bottom: 39%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma1 .input4_f1{
+    position: absolute;
+    left: 0;
+    bottom: 26%;
+    width: 95%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma1 .text5_f1{
+    position: absolute;
+    left: 0;
+    bottom: 13%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma1 .input5_f1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 95%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.ur_osoba .forma2{
+    position: absolute;
+    
+    width: 35%;
+    height: 20%;
+    top: 0%;
+    right: 10%;
+}
+.forma2 .text1_f2{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma2 .input1_f2{
+    position: absolute;
+    left: 0;
+    top: 8%;
+    width: 95%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma2 .text2_f2{
+    position: absolute;
+    left: 0%;
+    bottom: 66%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma2 .input2_f2{
+    position: absolute;
+    left: 0%;
+    bottom: 53%;
+    width: 45%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma2 .text3_f2{
+    position: absolute;
+    left: 50%;
+    bottom: 66%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma2 .input3_f2{
+    position: absolute;
+    left: 50%;
+    bottom: 53%;
+    width: 45%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma2 .text4_f2{
+    position: absolute;
+    left: 0;
+    bottom: 39%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma2 .input4_f2{
+    position: absolute;
+    left: 0;
+    bottom: 26%;
+    width: 95%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma2 .text5_f2{
+    position: absolute;
+    left: 0;
+    bottom: 13%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma2 .input5_f2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 45%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.ur_osoba .lc_text2{
+    position: absolute;
+    height: 55px;
+    width: 100%;
+    text-align-last: center;
+    top: 24%;
+    
+    font-family: Verdana;
+    font-size: 50px;
+    line-height: 60px;
+    
+    color: #363B5D;
+}
+.ur_osoba .lc_text4{
+    position: absolute;
+    height: 21px;
+    width: 100%;
+    text-align-last: center;
+    top: 30%;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #363B5D;
+}
+/* Види допомоги */
+.ur_osoba .do1{
+    position: absolute;
+    width: 178px;
+    height: 80px;
+    left: 10%;
+    top: 35%;
+}
+.do1 .do_shape{
+    position: absolute;
+    width: 32.38px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+}
+.do1 .shape2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    border: 2px solid #C5D5E6;
+    box-sizing: border-box;
+    border-radius: 15px;   
+}
+.shape2:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.do1 .do_text{
+    position: absolute;
+    width: 78px;
+    height: 18px;
+    left: 95px;
+    top: 30px;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #363B5D;
+    
+}
+.ur_osoba .money{
+    position: absolute;
+    width: 199px;
+    height: 80px;
+    left: 30%;
+    top: 35%;
+}
+.money .money_shape{
+    position: absolute;
+    width: 32.38px;
+    height: 40px;
+    left: 20px;
+    top: 25px;
+    z-index: 2;
+}
+.money .shape3{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #9C5D9A;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.money .money_text{
+    position: absolute;
+    width: 78px;
+    height: 18px;
+    left: 95px;
+    top: 20px;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #363B5D;
+}
+.ur_osoba .clothes{
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    left: 53%;
+    top: 35%;
+}
+.clothes .clothes_shape{
+    position: absolute;
+    width: 40px;
+    height: 56px;
+    left: 15px;
+    top: 15px;
+}
+.clothes .clothes_text{
+    position: absolute;
+    width: 119px;
+    height: 36px;
+    left: 95px;
+    top: 20px;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #363B5D;
+}
+.ur_osoba .donation{
+    position: absolute;
+    width: 229px;
+    height: 80px;
+    right: 9%;
+    top: 35%;
+}
+.donation .donation_shape{
+    position: absolute;
+    width: 39px;
+    height: 37px;
+    left: 20px;
+    top: 24px;
+}
+.donation .donation_text{
+    position: absolute;
+    width: 78px;
+    height: 18px;
+    left: 95px;
+    top: 30px;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #363B5D;
+}
+.ur_osoba .money:hover{
+    animation: 2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+.ur_osoba .do1:hover{
+    animation: 2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+.ur_osoba .clothes:hover{
+    animation: 2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+.ur_osoba  .donation:hover{
+    animation: 2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+@keyframes trambling-animation {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        transform: rotate(-3deg);
+    }
+    20%, 40% {
+        transform: rotate(3deg);
+    }
+}
+/* Фінанси */
+.ur_osoba .ls_forma{
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    right: 9%;
+    width: 80%;
+    height: 25%;
+}
+.ls_forma .combine_shape{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.ur_osoba .ls_forma1{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    left: 2%;
+    bottom: 7%;
+}
+.ls_forma1 .text_shape,
+.ls_forma2 .text_shape{
+    position: absolute;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+    top: -9%;
+    left: 0%;
+}
+.ls_forma1 .card1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 31%;
+    height: 45%;
+}
+.ls_forma1 .card2{
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    width: 31%;
+    height: 45%;
+}
+.card2 .text1_card2{
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    text-align: center;
+    height: 22px;
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+.ls_forma1 .card3{
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    width: 31%;
+    height: 45%;
+}
+.ls_forma1 .card4{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 31%;
+    height: 45%;
+}
+.ls_forma1 .card5{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 31%;
+    height: 45%;
+}
+.ls_forma1 .card,
+.ls_forma2 .card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.ls_forma1 .text_card{
+    position: absolute;
+    width: 100%;
+    bottom: 15%;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.ls_forma .ls_forma2{
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    right: 2%;
+    bottom: 7%;
+}
+.ls_forma2 .card6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+}
+.card6 .card6_group{
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    top: 20%;
+    right: 5%;
+    bottom: 10%;
+}
+.card6 .number_cards{
+    position: absolute;
+    height: 14px;
+    top: 12%;
+    left: 5%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.card6_group .input1_card{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30%;
+    width: 22.75%;
+}
+.card6_group .input2_card{
+    position: absolute;
+    top: 0;
+    left: 25.75%;
+    height: 30%;
+    width: 22.75%;
+}
+.card6_group .input3_card{
+    position: absolute;
+    top: 0;
+    left: 51.5%;
+    height: 30%;
+    width: 22.75%;
+}
+.card6_group .input4_card{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30%;
+    width: 22.75%;
+}
+.card6_group .data_cards{
+    position: absolute;
+    height: 14px;
+    bottom: 32%;
+    left: 0%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.card6_group .input5_card{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30%;
+    width: 45%;
+}
+.card6_group .cvc_cards{
+    position: absolute;
+    height: 14px;
+    bottom: 32%;
+    left: 55%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.card6_group .input6_card{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 30%;
+    width: 45%;
+}
+.ls_forma2 input{
+    background: #F3F7FA;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #b5bdc9;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: Verdana;
+    padding-left: 10px;
+}
+.ur_osoba .lc_text3:hover{
+    box-shadow: 0px 0px 15px 5px rgba(229, 54, 86, 0.4);
+}
+.ur_osoba .lc_text3{
+    position: absolute;
+    bottom: 20%;
+    height: 4%;
+    width: 25%;
+    left: 37%;
+    font-family: Verdana;
+    background: linear-gradient(46.62deg, #E53656 21.87%, #6082D8 124.73%);
+    border-radius: 10px;
+
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 50px;
+    transition: all .3s;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Фіз особа */
+.lay_content .fiz_osoba{
+    position: absolute;
+    top: 15%; 
+    width: 100%; 
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 15px;
+    bottom: 3.51%;
+    margin-bottom: 65px;
+    border-radius: 15px;
+}
+.fiz_osoba .forma1_f{
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    top: 0%;
+    left: 10%;
+}
+.forma1_f .text1_f1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma1_f .input1_f1{
+    position: absolute;
+    left: 0;
+    top: 8%;
+    width: 45%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma1_f .text2_f1{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma1_f .input2_f1{
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    width: 45%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma1_f .text3_f1{
+    position: absolute;
+    left: 0;
+    bottom: 66%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma1_f .input3_f1{
+    position: absolute;
+    left: 0;
+    bottom: 53%;
+    width: 95%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma1_f .text4_f1{
+    position: absolute;
+    left: 0;
+    bottom: 39%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma1_f .input4_f1{
+    position: absolute;
+    left: 0;
+    bottom: 26%;
+    width: 95%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma1_f .text5_f1{
+    position: absolute;
+    left: 0;
+    bottom: 13%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma1_f .input5_f1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 95%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.fiz_osoba .forma2_f{
+    position: absolute;
+    
+    width: 35%;
+    height: 20%;
+    top: 0%;
+    right: 10%;
+}
+.forma2_f .text1_f2{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma2_f .input1_f2{
+    position: absolute;
+    left: 0;
+    top: 8%;
+    width: 95%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma2_f .text2_f2{
+    position: absolute;
+    left: 0%;
+    bottom: 66%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma2_f .input2_f2{
+    position: absolute;
+    left: 0%;
+    bottom: 53%;
+    width: 45%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma2_f .text3_f2{
+    position: absolute;
+    left: 50%;
+    bottom: 66%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma2_f .input3_f2{
+    position: absolute;
+    left: 50%;
+    bottom: 53%;
+    width: 45%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma2_f .text4_f2{
+    position: absolute;
+    left: 0;
+    bottom: 39%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma2_f .input4_f2{
+    position: absolute;
+    left: 0;
+    bottom: 26%;
+    width: 95%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma2_f .text5_f2{
+    position: absolute;
+    left: 0;
+    bottom: 13%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma2_f .input5_f2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 45%;
+    height: 12%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.fiz_osoba .forma3_f{
+    position: absolute;
+    width: 35%;
+    height: 15%;
+    top: 25%;
+    left: 10%;
+}
+.forma3_f .text1_f3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma3_f .input1_f3{
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 95%;
+    height: 17%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma3_f .text2_f3{
+    position: absolute;
+    left: 0%;
+    bottom: 57%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma3_f .input2_f3{
+    position: absolute;
+    left: 0%;
+    bottom: 38%;
+    width: 45%;
+    height: 17%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma3_f .text3_f3{
+    position: absolute;
+    left: 50%;
+    bottom: 57%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma3_f .input3_f3{
+    position: absolute;
+    left: 50%;
+    bottom: 38%;
+    width: 45%;
+    height: 17%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma3_f .text4_f3{
+    position: absolute;
+    left: 0;
+    bottom: 18%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma3_f .input4_f3{
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    width: 95%;
+    height: 17%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.fiz_osoba .forma4_f{
+    position: absolute;
+    width: 35%;
+    height: 15%;
+    top: 25%;
+    right: 10%;
+}
+.forma4_f .text1_f4{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma4_f .input1_f4{
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 45%;
+    height: 17%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma4_f .text2_f4{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma4_f .input2_f4{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: 45%;
+    height: 17%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma4_f .text3_f4{
+    position: absolute;
+    left: 0%;
+    bottom: 57%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma4_f .input3_f4{
+    position: absolute;
+    left: 0%;
+    bottom: 38%;
+    width: 45%;
+    height: 17%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma4_f .text4_f4{
+    position: absolute;
+    left: 50%;
+    bottom: 57%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma4_f .input4_f4{
+    position: absolute;
+    left: 50%;
+    bottom: 38%;
+    width: 45%;
+    height: 18%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma4_f .text5_f4{
+    position: absolute;
+    left: 0%;
+    bottom: 18%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma4_f .input5_f4{
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    width: 45%;
+    height: 17%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.forma4_f .text6_f4{
+    position: absolute;
+    left: 50%;
+    bottom: 18%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+}
+.forma4_f .input6_f4{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 45%;
+    height: 17%;
+    border: none;
+    background: #d7ebff5c;
+    font-family: Verdana;
+    border-radius: 5px;
+    color: #363B5D;
+    outline: none;
+    padding: 7px;
+}
+.fiz_osoba .lc_text2{
+    position: absolute;
+    height: 55px;
+    width: 100%;
+    text-align-last: center;
+    top: 42%;
+    
+    font-family: Verdana;
+    font-size: 50px;
+    line-height: 60px;
+    
+    color: #363B5D;
+}
+.fiz_osoba .lc_text4{
+    position: absolute;
+    height: 21px;
+    width: 100%;
+    text-align-last: center;
+    top: 48%;
+    
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #363B5D;
+}
+/* Види допомоги */
+.fiz_osoba .do1{
+    position: absolute;
+    width: 178px;
+    height: 80px;
+    left: 10%;
+    top: 52%;
+}
+.fiz_osoba .money{
+    position: absolute;
+    width: 199px;
+    height: 80px;
+    left: 30%;
+    top: 52%;
+}
+.fiz_osoba .clothes{
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    left: 53%;
+    top: 52%;
+}
+.fiz_osoba .donation{
+    position: absolute;
+    width: 229px;
+    height: 80px;
+    right: 9%;
+    top: 52%;
+}
+.fiz_osoba .money:hover{
+    animation: 2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+.fiz_osoba .do1:hover{
+    animation: 2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+.fiz_osoba .clothes:hover{
+    animation: 2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+.fiz_osoba  .donation:hover{
+    animation: 2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+@keyframes trambling-animation {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        transform: rotate(-3deg);
+    }
+    20%, 40% {
+        transform: rotate(3deg);
+    }
+}
+/* Фінанси */
+.fiz_osoba .ls_formaf{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    right: 9%;
+    width: 80%;
+    height: 25%;
+}
+.ls_formaf .combine_shape{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.ls_formaf .ls_forma1f{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    left: 2%;
+    bottom: 7%;
+}
+.ls_forma1f .text_shape,
+.ls_forma2f .text_shape{
+    position: absolute;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #939AA3;
+    top: -9%;
+    left: 0%;
+}
+.ls_forma1f .card1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 31%;
+    height: 45%;
+}
+.ls_forma1f .card2{
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    width: 31%;
+    height: 45%;
+}
+.ls_forma1f .card3{
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    width: 31%;
+    height: 45%;
+}
+.ls_forma1f .card4{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 31%;
+    height: 45%;
+}
+.ls_forma1f .card5{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 31%;
+    height: 45%;
+}
+.ls_forma1f .card,
+.ls_forma2f .card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.ls_forma1f .text_card{
+    position: absolute;
+    width: 100%;
+    bottom: 15%;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.ls_formaf .ls_forma2f{
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    right: 2%;
+    bottom: 7%;
+}
+.ls_forma2f .card6f{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+}
+.card6f .card6_groupf{
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    top: 20%;
+    right: 5%;
+    bottom: 10%;
+}
+.card6f .number_cards{
+    position: absolute;
+    height: 14px;
+    top: 12%;
+    left: 5%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.card6_groupf .input1_card{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30%;
+    width: 22.75%;
+}
+.card6_groupf .input2_card{
+    position: absolute;
+    top: 0;
+    left: 25.75%;
+    height: 30%;
+    width: 22.75%;
+}
+.card6_groupf .input3_card{
+    position: absolute;
+    top: 0;
+    left: 51.5%;
+    height: 30%;
+    width: 22.75%;
+}
+.card6_groupf .input4_card{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30%;
+    width: 22.75%;
+}
+.card6_groupf .data_cards{
+    position: absolute;
+    height: 14px;
+    bottom: 32%;
+    left: 0%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.card6_groupf .input5_card{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30%;
+    width: 45%;
+}
+.card6_groupf .cvc_cards{
+    position: absolute;
+    height: 14px;
+    bottom: 32%;
+    left: 55%;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.card6_groupf .input6_card{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 30%;
+    width: 45%;
+}
+.ls_forma2f input{
+    background: #F3F7FA;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #b5bdc9;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: Verdana;
+    padding-left: 10px;
+}
+.fiz_osoba .lc_text3:hover{
+    box-shadow: 0px 0px 15px 5px rgba(229, 54, 86, 0.4);
+}
+.fiz_osoba .lc_text3{
+    position: absolute;
+    top: 90%;
+    height: 4%;
+    width: 25%;
+    left: 37%;
+    font-family: Verdana;
+    background: linear-gradient(46.62deg, #E53656 21.87%, #6082D8 124.73%);
+    border-radius: 10px;
+
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 50px;
+    transition: all .3s;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+
